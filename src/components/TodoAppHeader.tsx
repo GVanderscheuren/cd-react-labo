@@ -1,7 +1,10 @@
+import '../style/components/todo-app-header.scss'
+
 const Header = () => {
   return (
-    <header>
-      <h1>ToDo List</h1>
+    <header className="c-todo-app-header">
+      <h1 className="c-todo-app-header__title">Hello {'Marty'}</h1>
+      <h2 className="c-todo-app-header__subtitle">You have {'3'} todo's</h2>
     </header>
   );
 };

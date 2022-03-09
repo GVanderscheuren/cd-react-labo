@@ -4,9 +4,10 @@
   --global-light-color: #fdfdfd;
   --global-text-color: var(--global-dark-color);
   --global-background-color: var(--global-light-color);
+  // --global-alpha-color: #4169e1;
 
   // THEME COLOR
-  --gloal-theme-color: orange;
+  --global-theme-color: orange;
 }
 
 @media screen and (prefers-color-scheme: dark) {

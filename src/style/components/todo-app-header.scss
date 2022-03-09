@@ -1,0 +1,17 @@
+@import '../settings/fonts.scss'; //Should be forward
+
+.c-todo-app-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.c-todo-app-header__title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.c-todo-app-header__subtitle {
+  font-size: 1.1rem;
+  font-family: $beta-font-stack;
+  margin-bottom: 1rem;
+}

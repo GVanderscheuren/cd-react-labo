@@ -1,0 +1,42 @@
+.c-todo-item {
+  display: flex;
+  align-items: baseline;
+  margin: 1rem 0;
+
+  &-input {
+    // hide accessible!
+    &:checked + .c-todo-item-label {
+      background: var(--global-theme-color);
+    }
+  }
+
+  &-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 1px solid var(--global-theme-color) margin-right 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  &-symbol {
+    width: 0.75rem;
+    height: 0.75rem;
+    stroke: white;
+  }
+
+  &-content{
+
+  }
+
+  &-text{
+      font-size: 1.2rem;
+  }
+
+  &-category{
+      opacity: 0.6;
+  }
+}

@@ -11,10 +11,17 @@ function App() {
 
   return (
     <main className="App">
+      {/* CONTAINER: zet het in het midden */}
       <AppContainer>
-        <Header />
+        {/* APPROW: Geef het padding */}
         <AppRow>
+          <Header />
           <TodoInput />
+
+
+          <TodoItem />
+          <TodoItem />
+          <TodoItem />
           <TodoItem />
         </AppRow>
       </AppContainer>

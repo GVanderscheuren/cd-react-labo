@@ -2,5 +2,5 @@
 
 .o-container{
     margin: 0 auto;
-    max-width: map-get($map: $breakpoints, $key: 'screen')
+    max-width: map-get($map: $breakpoints, $key: 'phone')
 }
